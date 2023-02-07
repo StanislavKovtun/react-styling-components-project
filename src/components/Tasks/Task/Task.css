@@ -1,9 +1,27 @@
 .task-item {
-  margin: 1rem 0;
-  background: #00358b;
-  box-shadow: 0 2px 8px rgba(50, 50, 50, 0.25);
-  border-radius: 8px;
-  color: white;
-  padding: 1rem 2rem;
-  cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+    background: #00358b;
+    box-shadow: 0 2px 8px rgba(50, 50, 50, 0.25);
+    border-radius: 8px;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.del-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.del-btn:hover {
+    transform: scale(1.1);
+    font-weight: 700;
 }
