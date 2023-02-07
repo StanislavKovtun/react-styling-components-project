@@ -17,8 +17,6 @@ const TaskInput = (props) => {
 
     const formSubmitHandler = (event) => {
         event.preventDefault();
-        //inputText.trim() && props.onAddTask(inputText);
-        //console.log('setinputText');
         if (!inputText.trim()) {
             setIsInputValid(false);
             console.log(isInputValid);
@@ -33,9 +31,9 @@ const TaskInput = (props) => {
 
     return (
         <form onSubmit={formSubmitHandler}>
-            <div className="form-control">
-                <label style={{ color: isInputValid ? 'black' : 'red' }}>Задачи</label>
-                <input style={{ borderColor: isInputValid ? 'black' : 'red' }} type="text" value={inputText} onChange={taskInputChangeHandler} />
+            <div className={`form-control ${!isInputValid ? 'invalid' : ''}`}>
+                <label>Задачи</label>
+                <input type="text" value={inputText} onChange={taskInputChangeHandler} />
             </div>
             <Button type="submit">Добавить Задачу</Button>
         </form>
