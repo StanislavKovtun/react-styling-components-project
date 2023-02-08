@@ -6,10 +6,11 @@ import "./App.css";
 
 const App = () => {
   const [tasks, setTasks] = useState([
-    { text: "Create the course - 1 hour", id: "t1" },
-    { text: "Warm up 15 minutes", id: "t2" },
-    { text: "Update the course - 1 hour", id: "t3" },
-  ]);
+    { text: "Buy bitcoin", id: "t1" },
+    { text: "Wait until he grows up", id: "t2" },
+    { text: "Sell bitcoin", id: "t3" },
+    { text: "Become a millionaire", id: "t4" },
+ ]);
 
   const addTaskHandler = (inputText) => {
     setTasks((prevTasks) => {
