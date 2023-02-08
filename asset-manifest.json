@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/StanislavKovtun.github.io/react-styling-components-project/static/css/main.af737e47.chunk.css",
+    "main.js": "/StanislavKovtun.github.io/react-styling-components-project/static/js/main.133a793f.chunk.js",
+    "main.js.map": "/StanislavKovtun.github.io/react-styling-components-project/static/js/main.133a793f.chunk.js.map",
+    "runtime-main.js": "/StanislavKovtun.github.io/react-styling-components-project/static/js/runtime-main.ac0ece74.js",
+    "runtime-main.js.map": "/StanislavKovtun.github.io/react-styling-components-project/static/js/runtime-main.ac0ece74.js.map",
+    "static/js/2.bc00b0ed.chunk.js": "/StanislavKovtun.github.io/react-styling-components-project/static/js/2.bc00b0ed.chunk.js",
+    "static/js/2.bc00b0ed.chunk.js.map": "/StanislavKovtun.github.io/react-styling-components-project/static/js/2.bc00b0ed.chunk.js.map",
+    "index.html": "/StanislavKovtun.github.io/react-styling-components-project/index.html",
+    "static/css/main.af737e47.chunk.css.map": "/StanislavKovtun.github.io/react-styling-components-project/static/css/main.af737e47.chunk.css.map",
+    "static/js/2.bc00b0ed.chunk.js.LICENSE.txt": "/StanislavKovtun.github.io/react-styling-components-project/static/js/2.bc00b0ed.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ac0ece74.js",
+    "static/js/2.bc00b0ed.chunk.js",
+    "static/css/main.af737e47.chunk.css",
+    "static/js/main.133a793f.chunk.js"
+  ]
+}
