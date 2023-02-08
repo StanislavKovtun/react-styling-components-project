@@ -6,9 +6,9 @@ import "./App.css";
 
 const App = () => {
   const [tasks, setTasks] = useState([
-    { text: "Создание курса - 1 час", id: "t1" },
-    { text: "Разминка 15 мин", id: "t2" },
-    { text: "Создание курса - 1 час", id: "t3" },
+    { text: "Create the course - 1 hour", id: "t1" },
+    { text: "Warm up 15 minutes", id: "t2" },
+    { text: "Update the course - 1 hour", id: "t3" },
   ]);
 
   const addTaskHandler = (inputText) => {
@@ -27,7 +27,7 @@ const App = () => {
   };
 
   let content = (
-    <p style={{ textAlign: "center" }}>Задач не найдено! Добавить?</p>
+    <p style={{ textAlign: "center" }}>No tasks found! Do you want to add a task?</p>
   );
 
   if (tasks.length > 0) {

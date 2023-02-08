@@ -19,23 +19,23 @@ const TaskInput = (props) => {
         event.preventDefault();
         if (!inputText.trim()) {
             setIsInputValid(false);
-            console.log(isInputValid);
+            //console.log(isInputValid);
             return;
         } else {
             props.onAddTask(inputText);
             setIsInputValid(true);
             setInputText('');
         }
-        console.log(isInputValid);
+        //console.log(isInputValid);
     };
 
     return (
         <form onSubmit={formSubmitHandler}>
             <div className={`form-control ${!isInputValid ? 'invalid' : ''}`}>
-                <label>Задачи</label>
+                <label>Tasks</label>
                 <input type="text" value={inputText} onChange={taskInputChangeHandler} />
             </div>
-            <Button type="submit">Добавить Задачу</Button>
+            <Button type="submit">Add a task</Button>
         </form>
     );
 };
