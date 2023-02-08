@@ -1,7 +1,7 @@
 {
   "name": "react-complete-guide",
   "version": "0.1.0",
-  "homepage": "https://github.com/StanislavKovtun.github.io/react-styling-components-project",  
+  "homepage": "https://stanislavkovtun.github.io/react-styling-components-project",  
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
